@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Giới Thiệu Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header, main, footer {
+            margin-bottom: 20px;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Chào mừng đến với trang của tôi!</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Danh sách sở thích</h2>
+        <ul>
+            <li>Đọc sách</li>
+            <li>Du lịch</li>
+            <li>Chụp ảnh</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Bộ sưu tập ảnh</h2>
+        <img src="https://via.placeholder.com/200x150" alt="Ảnh mẫu 1">
+        <img src="https://via.placeholder.com/200x150" alt="Ảnh mẫu 2">
+        <img src="https://via.placeholder.com/200x150" alt="Ảnh mẫu 3">
+    </section>
+
+    <section>
+        <h2>Tham khảo thêm</h2>
+        <p>Xem thêm tại <a href="https://www.w3schools.com" target="_blank">W3Schools</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 - Trang web cá nhân được xây dựng bởi tôi.</p>
+</footer>
+
+</body>
+</html>
